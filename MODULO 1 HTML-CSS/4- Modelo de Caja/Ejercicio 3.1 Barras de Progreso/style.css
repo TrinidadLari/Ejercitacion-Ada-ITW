@@ -1,0 +1,65 @@
+/* DUDAS:
+1-Cómo se hace para tomar una medida porcentual desde el contenedor inmediato y no desde el tamaño de la pantalla? */
+/* 
+RESPUESTAS:
+1- Usando el % y no el vh o vw
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.diez{
+    width: 10%;
+    /* width: 10vw; */
+    /* width: 50px; */
+    height: 30px;
+    background-color: rgb(33, 155, 60);
+    border-radius: 100px;
+  }
+
+  .veinti{
+    /* width: 25vw; */
+    /* width: 125px; */
+    width: 25%;
+    height: 30px;
+    background-color: rgb(33, 155, 60);
+    border-radius: 100px;
+  }
+
+  .cincu{
+    /* width: 50vw; */
+    /* width: 250px; */
+    width: 50%;
+    height: 30px;
+    background-color: rgb(33, 155, 60);
+    border-radius: 100px;
+  }
+
+  .setenti{
+    /* width: 75vw;
+    width: 375px; */
+    width: 75%;
+    height: 30px;
+    background-color: rgb(33, 155, 60);
+    border-radius: 100px;
+  }
+
+  .noventa{
+    /* width: 90vw; */
+    /* width: 450px; */
+    width: 90%;
+    height: 30px;
+    background-color: rgb(33, 155, 60);
+    border-radius: 100px;
+  }

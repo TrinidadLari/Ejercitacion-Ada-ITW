@@ -1,0 +1,67 @@
+/* 02 - Header
+Agregar un header, con una navegación y una lista de links.
+Poner 4 links (p. ej.: Sobre mí, Servicios, Proyectos y Contacto).
+Dar al header un color de fondo.
+Dar a los links los siguientes estilos: tipografía, tamaño de letra y color. Sacar el subrayado que viene por defecto en los links.
+Hacer que el header esté arriba de todo de la página, que ocupe todo el ancho, y que tenga un alto fijo (p. ej.: 40px).
+Hacer que los links queden uno al lado del otro, con un poco de separación y centrados verticalmente con respecto al header.
+Hacer que los links queden alineados a la izquierda.
+Poner un breakpoint para que cuando el ancho de la pantalla esté por cubrir los links, los links se oculten y en un su lugar aparezca un ícono.
+Usar este ícono de Font Awesome.
+El ícono tiene que estar alineado a la derecha en el header. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: bisque;
+    height: 40px;
+    width: 100%;
+
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+i {
+    visibility: hidden;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    justify-content: start;
+    padding: 7px;
+}
+
+@media (max-width: 600px) {
+    ul {
+        display: none;
+    }
+
+    i {
+        visibility: visible;
+        padding: 10px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: end;
+    }
+}

@@ -1,0 +1,60 @@
+/* -
+DUDAS:   
+1- como centrar el texto en flex?
+al contenedor (no a p) ponerle display: flex / justify-content y aling-items
+2- como poner el aside en el costado?
+bueno, EL DISPLAY:FLEX va en TODOS los CONTENEDORES PADRES
+-- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  
+}
+
+header{
+    display: flex;
+    background-color: rgb(167, 126, 205);
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside{
+    display: flex;
+    background-color: bisque;
+    width: 20vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkturquoise;
+    height: 80vh;
+    width: 80vw;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(146, 205, 126);
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+

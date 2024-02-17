@@ -1,0 +1,82 @@
+/* ...
+DUDA:   
+.. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.div-padre{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 2px rgb(113, 113, 113);
+    margin-top: 200px;
+    padding: 30px;
+}
+
+.titulo{
+    /* margin-bottom: 30px;  */
+} 
+
+.div-head{
+    margin-bottom: 30px;
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 15px;
+}
+img{
+    width: 100%;
+
+}
+
+.img-conteiner{
+    width: 60px;
+}
+
+.div-body{
+    border-bottom: 1px solid gray;
+}
+
+.div-footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.span-num{
+    font-weight: 900;
+}
+
+.left{
+    display: flex;
+    gap: 15px;
+}
+
+.right{
+    display: flex;
+    gap: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+p{
+    color: dimgrey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+p.mas{
+    color: rgb(10, 174, 29);
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+p.menos{
+    color: rgb(221, 0, 0);
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}

@@ -1,0 +1,119 @@
+/* ..
+DUDAS: 
+1- Como lograr la sombra de la card completa con los border-radius (me queda cuadrada)?
+2- Como se "da enter" al texto para que vaya abajo sin usar br?
+3- otra vez, como centrar texto en boton? 
+. */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100%;
+   background-color: rgb(199, 199, 199);
+   display: flex;
+   justify-content: center;
+   margin-top: 20vh;
+   margin-bottom: 20vh;
+}
+
+.padre {
+   width: 600px;
+   /* height: 800px; */
+   /* margin-top: 50px; */
+   /* margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px; */
+   /* box-shadow: 1px 1px 1px 3px rgb(95, 87, 87); */
+}
+
+.sup {
+   background-color: rgb(203, 33, 64);
+   border-bottom: 1px solid black;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+
+}
+
+.inf {
+   background-color: rgb(12, 31, 44);
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+
+}
+
+img {
+   margin-left: 30%;
+   margin-top: 20px;
+   margin-bottom: 20px
+}
+
+h1 {
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 70px;
+   text-align: center;
+   color: aliceblue;
+   background-color: rgb(12, 31, 44);
+
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around;
+
+}
+
+span {
+   display: flex;
+   height: 30px;
+   width: 160px;
+   text-align: center;
+   /* justify-content: center; */
+   background-color: rgb(12, 31, 44);
+   color: white;
+   border: 2px solid red;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px 2px rgb(95, 87, 87);
+}
+
+h4 {
+   text-align: center;
+   padding-top: 20px;
+   margin-bottom: 20px;
+   color: aliceblue;
+}
+
+p {
+   text-align: center;
+   width: 400px;
+   margin-left: 15%;
+   color: aliceblue;
+}
+
+h6 {
+   text-align: center;
+   padding-top: 20px;
+   margin-bottom: 20px;
+   color: aliceblue;
+}
+
+.precio {
+   font-size: 30px;
+   color: aliceblue;
+}
+
+button {
+   margin-top: 30px;
+   margin-left: 42%;
+   margin-bottom: 30px;
+   width: 90px;
+   height: 23px;
+   border-radius: 10px;
+   background-color: rgb(0, 0, 71);
+   color: white;
+   border: 2px solid red;
+   box-shadow: 2px 2px 5px 2px rgb(95, 87, 87);
+}

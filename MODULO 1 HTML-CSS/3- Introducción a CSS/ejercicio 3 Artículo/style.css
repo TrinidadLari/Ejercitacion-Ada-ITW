@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 400;
+}
+
+.italica{
+    font-style: italic;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gris{
+    color: grey;
+}

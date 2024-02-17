@@ -1,0 +1,89 @@
+/* .
+DUDAS: 
+1- como centrar el div padre en la pantalla sin usar margin
+2- me quedan feas los bordes redondeados, cómo se mejora?
+
+RESPUESTAS:
+2- Usando px en vez de % mejora
+. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(199, 182, 214);
+}
+
+.padre{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 30%;
+    box-shadow: 2px 2px 5px 2px rgb(128, 128, 128);
+}
+
+img{
+    height: 60px;
+    margin-left: 37%;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+h6{
+    text-align: center;
+    font-size: 10px ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.gris{
+    background-color: rgb(210, 210, 210);
+    width: 150px;
+    margin-left: 20%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px rgb(128, 128, 128);
+
+}
+
+.in{
+    margin-left: 20%;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px rgb(128, 128, 128);
+}
+
+h5{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.out{
+    margin-top: 25px;
+    margin-left: 31%;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px 2px rgb(128, 128, 128);
+}

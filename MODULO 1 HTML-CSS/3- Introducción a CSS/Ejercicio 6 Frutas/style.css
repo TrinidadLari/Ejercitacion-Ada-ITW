@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banana{
+    color: rgb(191, 183, 75);
+    margin: 20px;
+    font-size:  40px;
+}
+
+.kiwi{
+    color: rgb(91, 149, 34);
+    margin: 20px;
+    font-size:  40px;
+}
+
+.manzana{
+    color: brown;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.pera{
+    color: goldenrod;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.arándano{
+    color: blueviolet;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.frutilla{
+    color: firebrick;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.limón{
+    color: gold;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.ananá{
+    color: bisque;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.naranja{
+    color: darkorange;
+    margin: 20px;
+    font-size:  40px;
+}
+
+.durazno{
+    color: coral;
+    margin: 20px;
+    font-size:  40px;
+}

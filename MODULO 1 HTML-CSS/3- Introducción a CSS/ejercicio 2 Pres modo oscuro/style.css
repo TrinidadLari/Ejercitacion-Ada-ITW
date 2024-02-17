@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pompiere', cursive;;
+}
+
+body{
+    background-color: #212121;
+    color: rgb(248, 244, 240);
+}
+
+h1{
+    font-size: 120px;
+    font-weight: 800;
+    /* color: aliceblue; */
+}
+
+p{
+    font-size: 48px;
+    font-weight: 600;
+    /* color: aliceblue; */
+}
+
+.color1{
+    color: rgb(184, 142, 223);
+}
+
+.color2{
+    color: rgb(234, 196, 182);
+}
+
+.color3{
+    color: rgb(232, 150, 232);
+}
+
+.color4{
+    color: rgb(172, 232, 229);
+}

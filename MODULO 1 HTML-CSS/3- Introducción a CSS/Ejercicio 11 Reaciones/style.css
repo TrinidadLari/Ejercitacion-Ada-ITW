@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    text-decoration: none;
+    font-size: medium;
+    
+}
+
+.min{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(70, 71, 71);
+    font-size: 10px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+span{
+    margin-left: 20px;
+    background-color: rgb(202, 202, 202);
+}
+
+div{
+    margin-bottom: 30px;
+}

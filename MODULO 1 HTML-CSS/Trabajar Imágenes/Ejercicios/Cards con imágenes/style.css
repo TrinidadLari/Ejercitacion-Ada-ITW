@@ -1,0 +1,68 @@
+/* .Por que no usamos el width: 100vw...y si el hight 100vh..... */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    /* justify-items: center; */
+    border-style: groove;
+    background-color: rgb(218, 218, 218);
+    /* sin margin porque hace scroll */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 340px;
+    height: 445px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    /* object-position: botton; */
+    aspect-ratio: 16/9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* el aspect-ratio va en la img y no en el div que la contiene
+El borde no se hereda hay que agregarselo a la img */
+
+.card_text {
+    padding: 9%;
+}
+
+h1 {
+    padding-bottom: 5%;
+}
+
+p {
+    padding-bottom: 10%;
+    line-height: 130%;
+
+}
+
+.card_button {
+    display: flex;
+    justify-content: start;
+    margin-top: 5%;
+}
+
+button {
+    background-color: rgb(143, 177, 216);
+    width: 320px;
+    height: 30px;
+    border-style: none;
+}

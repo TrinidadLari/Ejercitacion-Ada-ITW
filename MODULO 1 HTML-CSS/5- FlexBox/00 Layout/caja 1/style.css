@@ -1,0 +1,38 @@
+/* ..
+DUDAS:   
+1- Como  poner centrado p con flex
+
+. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(255, 153, 255);
+    height: 20vh;
+  
+}
+
+main{
+    background-color: aliceblue;
+    height: 80vh;
+}
+
+footer{
+    background-color: rgb(173, 133, 211);
+    height: 20vh;
+}
+
+p{
+    text-align: center;
+    padding-top: 30px
+}

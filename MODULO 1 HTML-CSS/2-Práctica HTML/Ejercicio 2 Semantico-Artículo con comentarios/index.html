@@ -1,0 +1,64 @@
+<!-- Ejercicio 2 - Artículo con comentarios
+🔍 Investigar la etiqueta time
+Crear la estructura HTML de un artículo (sin estilos) usando etiquetas semánticas:
+
+Dentro del body, poner una etiqueta main.
+Dentro de main, poner una etiqueta header.
+Dentro de header, poner una etiqueta h1 con el texto "El mejor artículo del mundo"
+Arriba de la etiqueta h1, poner una etiqueta div
+Dentro del elemento div, poner una etiqueta timeque digaUna semana atráscon el atributodatetime` y una fecha válida.
+Debajo de header poner 4 párrafos con lorem ipsum.
+Debajo de los 4 párrafos, poner una section.
+Dentro de la section, poner un h2 que diga Comentarios.
+Debajo de h2, crear 4 comentarios.
+Cada comentario es un article.
+Tiene que contener un header con un h3 que contenga el nombre de quién comentó, y una etiqueta time que diga Hace 3 días con el atributo datetime y una fecha válida.
+Debajo del header, tiene que contener una etiqueta p con lorem ipsum.
+
+⚠️ Consideraciones:
+
+Poner clases a todos los elementos.
+Se puede usar lorem ipsum para todos los texto que se necesiten. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo con comentarios</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+            <h1>El mejor artículo del mundo</h1>
+            <time datetime="07/10/2023">Una semana atrás</time>
+        </div>
+        </header>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam amet ipsa iste aliquid. Minus molestiae atque beatae obcaecati nostrum neque eaque sapiente, quam quis blanditiis sequi deserunt ipsum unde.</p>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam amet ipsa iste aliquid. Minus molestiae atque beatae obcaecati nostrum neque eaque sapiente, quam quis blanditiis sequi deserunt ipsum unde.</p>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam amet ipsa iste aliquid. Minus molestiae atque beatae obcaecati nostrum neque eaque sapiente, quam quis blanditiis sequi deserunt ipsum unde.</p>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam amet ipsa iste aliquid. Minus molestiae atque beatae obcaecati nostrum neque eaque sapiente, quam quis blanditiis sequi deserunt ipsum unde.</p>
+        <section>
+            <h2>Comentarios </h2>
+            <article>
+                <h3>Pepito Fiore <time datetime="10/10/2023">Hace 4 días</time></h3>
+                <p class="comentarios">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad fuga iusto voluptatem inventore. Commodi debitis veniam necessitatibus. Deleniti, laborum alias debitis adipisci modi laboriosam, labore blanditiis assumenda illum eaque quaerat.</p>
+            </article>
+            <article>
+                <h3>Juan Sinnombre <time datetime="12/10/2023">Hace 2 días</time></h3>
+                <p class="comentarios">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad fuga iusto voluptatem inventore. Commodi debitis veniam necessitatibus. Deleniti, laborum alias debitis adipisci modi laboriosam, labore blanditiis assumenda illum eaque quaerat.</p>
+            </article>
+            <article>
+                <h3>Natalia Natalia <time datetime="o9/10/2023">Hace 5 días</time></h3>
+                <p class="comentarios">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad fuga iusto voluptatem inventore. Commodi debitis veniam necessitatibus. Deleniti, laborum alias debitis adipisci modi laboriosam, labore blanditiis assumenda illum eaque quaerat.</p>
+            </article>
+            <article>
+                <h3>Equis kú <time datetime="o8/10/2023">Hace 6 días</time></h3>
+                <p class="comentarios">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad fuga iusto voluptatem inventore. Commodi debitis veniam necessitatibus. Deleniti, laborum alias debitis adipisci modi laboriosam, labore blanditiis assumenda illum eaque quaerat.</p>
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
